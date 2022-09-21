@@ -32,6 +32,15 @@ var paper = 763789.0;
         System.out.println (frog);
         frog = frog + 4;
         System.out.println (frog);
+
+        var boxer1 = 78.2;
+        System.out.println (boxer1 + " КГ");
+        var boxer2 = 82.7;
+        System.out.println (boxer2 + " КГ");
+        var boxersWeight = boxer1 + boxer2;
+        System.out.println ("Общий вес боксеров " + boxersWeight + " КГ");
+        var   boxerWeightDifference = boxer2-boxer1;
+        System.out.println ("Разница между весами боксеров "+ boxerWeightDifference + " КГ");
     }
 
 
