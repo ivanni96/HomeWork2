@@ -46,6 +46,14 @@ var paper = 763789.0;
         System.out.println ("Разница между весами боксеров (способ 1) "+ (boxer2 - boxer1) + " КГ");
         System.out.println ("Разница между весами боксеров (способ 2) "+ (boxer2 % boxer1) + " КГ");
 
+        var totalWorkingHours = 640;
+        var hoursPerDay = 8;
+        var totalEmployees = totalWorkingHours / hoursPerDay;
+        System.out.println("Всего работников в компании - " + totalEmployees + " человек");
+
+        totalEmployees = totalEmployees + 94;
+        totalWorkingHours = totalEmployees * hoursPerDay;
+        System.out.println("Если в компании работает " + totalEmployees + " человека, то всего " + totalWorkingHours + " часов работы может быть поделено между сотрудниками " );
     }
 
 
