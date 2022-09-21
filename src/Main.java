@@ -42,6 +42,7 @@ var paper = 763789.0;
         var   boxerWeightDifference = boxer2-boxer1;
         System.out.println ("Разница между весами боксеров "+ boxerWeightDifference + " КГ");
 
+
     }
 
 
